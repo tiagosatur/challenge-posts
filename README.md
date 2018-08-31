@@ -64,7 +64,7 @@ Defina um limite de cards a serem exibidos. Ao rolar a página até o fim, dever
 
 
 ### Layout
-![alt text](./challenge.jpg)
+![alt text](master/challenge.jpg)
 
 P.S.: É indispensável o uso Redux (Sagas) e os lifecycles do React.
 
