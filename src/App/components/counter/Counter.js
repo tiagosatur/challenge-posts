@@ -1,5 +1,4 @@
 import React from 'react'
-import { connect } from 'react-redux'
 
 export const Counter = ({counter, increment, decrement}) => {
   return (
@@ -13,14 +12,6 @@ export const Counter = ({counter, increment, decrement}) => {
   )
 
 }
-const mapStateToProps = (state) => ({
-  counter: state
-})
 
-const mapDispatchToProps = (dispatch) => ({
-  //Event methods are on constructor = maintains the this of the class
-  increment: () => dispatch({ type: 'INCREMENT' }),
-  decrement: () =>  dispatch({ type: 'DECREMENT' })
-})
 
-export default connect(mapStateToProps, mapDispatchToProps)(Counter);
+export default Counter;

@@ -12,6 +12,12 @@ class App extends Component {
                   Busca de Posts
               </h1>
 
+              <div className=''></div>
+              <form action="#">
+                <input type="text" placeholder='O que procura?' />
+                <button className=''>Buscar</button>
+              </form>
+
             <Counters />
           </div>
       );
